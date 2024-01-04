@@ -28,7 +28,6 @@ def browser_management():
     }
     options.capabilities.update(selenoid_capabilities)
 
-
     login = os.getenv('LOGIN')
     password = os.getenv('PASSWORD')
 
