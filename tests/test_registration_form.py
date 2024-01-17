@@ -2,7 +2,7 @@ import os
 
 from selene import browser, have, be, command
 import allure
-# https://jenkins.autotests.cloud/job/qa_guru_python_9_13_jenkins/
+# https://jenkins.autotests.cloud/job/qa_guru_python_9_14_jenkins_notifications/
 
 @allure.title('Success student registration')
 def test_complete_todo():
